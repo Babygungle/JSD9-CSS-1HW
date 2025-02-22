@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body {
+  font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style:normal;
+  letter-spacing:0.2mm;
+  margin: 2.7rem;
+  background-color: #f7f7f8;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 550;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 1.3px;
+  font-weight: 660;
+}
+
+.opening-message{
+  margin-right: 40%;
+  margin-top: 2rem;
+}
+.stat-box-line-height {
+  margin-top: 0.6rem;
+  margin-bottom: 2.5rem;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+
+span {
+  padding: 0.6rem 0.8rem;
+  font-weight: 700;
+  border-radius: 1.7rem;
+  font-family: sans-serif;
+}
+
+.caption {
+  font-weight: bold;
+  line-height: 2rem;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.caption-small{
+  font-weight: 550;
+  font-size: 1.05rem;
+  text-align: left;
+  line-height: 1.5rem;
+  font-family: sans-serif;
+  letter-spacing: 0px;
+}
+
+.stat-small-box-radius {
+  border-radius: 1.5rem;
+}
+
+a.button {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1rem 2.1rem;
+  background-color: #fff;
+  border: 3.5px solid #001725;
+  filter: drop-shadow(5px 5px 0px #000);
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+}
+
+a:hover {
+  background-color: #80b9dc;
+}
+
+.bg-generation-yellow {
+  background-color: #ffd449;
+}
+
+.bg-generation-green {
+  background-color: #32b34d;
+}
+
+.bg-generation-blue {
+  background-color: #0074b9;
+  color: #fff;
+}
+
+.button:visited {
+  color: #001725;
+}
+
+
+.stat-box {
+  font-size: 4.3rem;
+}
+.stat-font-small{
+  font-size: 3.2rem;
+}
+
+.stat-box-small {
+  text-align: left;
+  max-width: 155px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  text-align: left;
+}
+
+.container-inside-stat {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.03rem;
+}
+
+.container-inside-stat > div {
+  font-size: 3.6rem;
+}
+
+.durability{
+  width: 32.6rem;
+}
+.depth {
+  width: 32.5rem;
+}
+.breadth  {
+  width: 29rem;
+}
