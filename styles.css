@@ -124,13 +124,13 @@ a:hover {
   max-width: 130px;
 }
 
-.flex-container {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.9rem;
 }
 
-.flex-container > div {
+.container > div {
   text-align: left;
 }
 
