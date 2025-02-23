@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 body {
   font-family: "Inter Tight", serif;
   font-optical-sizing: auto;
   font-weight: 450;
-  font-style:normal;
-  letter-spacing:0.2mm;
+  font-style: normal;
   margin: 2rem;
+  letter-spacing: 0.2mm;
   background-color: #f7f7f8;
 }
 
@@ -25,7 +25,7 @@ h3 {
   font-weight: 660;
 }
 
-.opening-message{
+.opening-message {
   margin-right: 39%;
   margin-top: 2rem;
 }
@@ -40,7 +40,6 @@ p {
   margin-bottom: 0.4rem;
 }
 
-
 span {
   padding: 0.3rem 0.5rem;
   font-weight: 700;
@@ -50,13 +49,19 @@ span {
 
 .caption {
   font-weight: bold;
-  line-height: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
   font-size: 1.04rem;
+  margin-bottom: 0.4rem;
+  position: relative;
+  top: -10px;
 }
 
-.caption-small{
+.caption-1 {
+  font-weight: bold;
+  font-size: 1.04rem;
+  position: relative;
+  top: -20px;
+}
+.caption-small {
   font-weight: 550;
   font-size: 0.8rem;
   text-align: left;
@@ -104,25 +109,25 @@ a:hover {
   color: #001725;
 }
 
-
 .stat-box {
   font-size: 3.3rem;
 }
-.stat-font-small{
+.stat-font-small {
   font-size: 2.4rem;
   padding-top: 0.5rem;
-  position: relative; 
-  top: -10px;;
+  position: relative;
+  top: -10px;
 }
 
-.stat-box-small {
+.inside-stat-box-small {
   text-align: left;
   max-width: 130px;
 }
 
 .flex-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.9rem;
 }
 
 .flex-container > div {
@@ -139,12 +144,28 @@ a:hover {
   font-size: 2.8rem;
 }
 
-.durability{
+.durability {
   width: 23rem;
 }
 .depth {
   width: 24rem;
 }
-.breadth  {
-  width: 23rem;
+.breadth {
+  width: 24rem;
+}
+
+@media only screen and (min-width: 1300px) {
+  body {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .stat-box {
+    font-size: 4.8rem;
+  }
+
+  .stat-font-small {
+    font-size: 3.5rem;
+  }
 }
